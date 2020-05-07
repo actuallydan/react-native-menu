@@ -5,18 +5,11 @@
   "main": "index.js",
   "types": "index.d.ts",
   "scripts": {
-    "test": "echo 'no tests'",
-    "format": "prettier --print-width 100 --no-semi --tab-width 2 --write index.js",
-    "postversion": "git push && git push --tags"
-  },
-  "husky": {
-    "hooks": {
-      "pre-commit": "yarn format"
-    }
+    "test": "echo 'no tests'"
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/pedreviljoen/react-native-menu.git"
+    "url": "git+https://github.com/actuallydan/react-native-menu.git"
   },
   "keywords": [
     "react-native",
@@ -25,12 +18,12 @@
     "drawer",
     "drawer component"
   ],
-  "author": "Pedre Viljoen",
+  "author": "Dan Kral",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/pedreviljoen/react-native-menu/issues"
+    "url": "https://github.com/actuallydan/react-native-menu/issues"
   },
-  "homepage": "https://github.com/pedreviljoen/react-native-menu#readme",
+  "homepage": "https://github.com/actuallydan/react-native-menu#readme",
   "publishConfig": {
     "access": "public"
   },
